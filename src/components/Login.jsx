@@ -1,5 +1,6 @@
 import React from "react";
 import shareVideo from "../assets/share.mp4";
+import logo from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
 import jwt_decode from "jwt-decode";
@@ -19,9 +20,9 @@ const Login = () => {
       image: picture,
     };
 
-      client.createIfNotExists(doc).then(() => {
-        navigate("/", { replace: true });
-      });
+    client.createIfNotExists(doc).then(() => {
+      navigate("/", { replace: true });
+    });
   };
 
   return (
