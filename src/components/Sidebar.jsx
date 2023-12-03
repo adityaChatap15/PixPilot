@@ -16,7 +16,7 @@ const Sidebar = ({ user, closeToggle }) => {
   };
 
   return (
-    <div className="min-w-210 h-full flex flex-col justify-between bg-white hide-scrollbar  overflow-h-scroll ">
+    <div className="min-w-210 h-full flex flex-col justify-between bg-white hide-scrollbar overflow-h-scroll ">
       <div className="flex flex-col">
         <Link to="/" className="px-5 my-5 w-190" onClick={handleCloseSidebar}>
           <img src={logo} alt="logo" className="w-full" />

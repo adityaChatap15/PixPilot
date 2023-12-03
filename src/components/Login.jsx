@@ -1,6 +1,5 @@
 import React from "react";
 import shareVideo from "../assets/share.mp4";
-import logo from "../assets/logowhite.png";
 import { useNavigate } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
 import jwt_decode from "jwt-decode";
